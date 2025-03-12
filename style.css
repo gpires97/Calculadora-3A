@@ -1,0 +1,41 @@
+/* Estilização geral do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    text-align: center; /* Centraliza o conteúdo */
+    background-color: #f4f4f4; /* Define a cor de fundo da página */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização do contêiner principal */
+.container {
+    max-width: 400px; /* Define a largura máxima do contêiner */
+    margin: 50px auto; /* Centraliza na tela com margem superior de 50px */
+    background: white; /* Fundo branco para o contêiner */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilização dos campos de entrada, seleção e botão */
+input, select, button {
+    display: block; /* Ocupa toda a largura disponível */
+    width: 100%; /* Define a largura total */
+    margin: 10px 0; /* Espaçamento entre os elementos */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho do texto */
+}
+
+/* Estilização do botão */
+button {
+    background: #007BFF; /* Cor azul */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar clique */
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    background: #0056b3; /* Cor azul mais escura ao passar o mouse */
+}
